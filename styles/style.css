@@ -81,7 +81,7 @@ h6 {
 
 body {
   font-family: Roboto, sans-serif;
-  color: white;
+  color: #fff;
   background-color: #1b1b1b;
 }
 
@@ -103,11 +103,10 @@ body {
 
 .header {
   height: 118px;
-  border: none;
 }
 
 .logo {
-  padding: 0 50px;
+  padding-right: 100px;
 }
 
 .navbar {
@@ -141,7 +140,7 @@ body {
 }
 
 .link {
-  color: white;
+  color: #fff;
 }
 
 .main {
@@ -186,18 +185,16 @@ body {
   font-weight: 700;
   line-height: 17px;
   color: #272142;
-  background-color: white;
+  background-color: #fff;
   text-transform: uppercase;
 }
 
 .main__section {
   padding: 100px 140px;
-  background-color: #1b1b1b;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   box-sizing: border-box;
-  /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .main__section__item {
@@ -219,7 +216,7 @@ body {
 
 .fa-brands,
 .fa-solid {
-  color: white;
+  color: #fff;
   width: 14px;
   height: 14px;
 }
@@ -241,22 +238,20 @@ body {
 }
 
 /* about page */
+
 .top__section {
   display: flex;
 }
 
 .aside {
   width: 50%;
-  /* width: 700px; */
   height: 782px;
   background-image: url(../images/bg-vertical.png);
   background-position: center;
-  /* background-size: cover; */
 }
 
 .about__main {
   width: 50%;
-  /* background-color: #1b1b1b; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -270,17 +265,15 @@ body {
   color: #f65282;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /* margin-top: 51px; */
 }
 
 .about__author {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   font-size: 64px;
   font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 75px;
-  /* margin: 32px 0 34px 0; */
 }
 
 .about__camera {
@@ -293,7 +286,6 @@ body {
 }
 
 .about__camera__image {
-  /* padding: 20px; */
   width: 70px;
   height: 40px;
 }
@@ -308,7 +300,6 @@ body {
   display: flex;
   padding: 100px 144px;
   justify-content: space-between;
-  /* background-color: #1b1b1b; */
 }
 
 .bottom__section__photo {
