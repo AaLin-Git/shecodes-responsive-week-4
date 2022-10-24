@@ -84,7 +84,7 @@ body {
   color: white;
 }
 
-.section {
+.head__section {
   height: 900px;
   background-image: url(../images/bg.png);
   background-position: center center;
@@ -114,6 +114,7 @@ body {
 }
 
 .navbar__item {
+  margin: 0 15px;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -159,4 +160,30 @@ body {
   line-height: 17px;
   color: #272142;
   background-color: white;
+}
+
+.main__section {
+  padding: 100px 140px;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+/* .row {
+  display: flex;
+  height: 280px;
+  width: fill;
+} */
+
+.main__section__item {
+  padding: 20px;
+  height: 280px;
+  max-width: 100%;
+}
+
+.grow {
+  flex-grow: 1;
 }
