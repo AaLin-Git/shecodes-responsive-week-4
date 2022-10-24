@@ -158,16 +158,25 @@ body {
   margin-top: 158px;
 }
 
-.name {
+.topic {
+  display: block;
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
+  letter-spacing: 0.1em;
   margin: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description,
+.about,
+.about__camera__paragraph {
+  font-size: 18px;
 }
 
 .description {
   display: inline-block;
-  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   width: 460px;
@@ -259,7 +268,6 @@ body {
 }
 
 .about {
-  font-size: 18px;
   font-weight: 700;
   height: 21px;
   color: #f65282;
@@ -291,7 +299,6 @@ body {
 }
 
 .about__camera__paragraph {
-  font-size: 18px;
   font-weight: 700;
   line-height: 30px;
 }
@@ -340,6 +347,7 @@ body {
 
   .logo {
     width: 100px;
+    padding: 0;
   }
 
   .trademark {
@@ -358,7 +366,7 @@ body {
     bottom: 65px;
   }
 
-  .name {
+  .topic {
     font-size: 36px;
   }
 
