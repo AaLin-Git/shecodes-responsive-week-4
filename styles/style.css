@@ -447,8 +447,16 @@ body {
     bottom: 65px;
   }
 
+  .contact__main {
+    gap: 0;
+  }
+
   .topic {
     font-size: 36px;
+  }
+
+  .contact__topic {
+    margin: 30px 0;
   }
 
   #input:checked ~ .main__navbar {
