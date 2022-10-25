@@ -403,6 +403,10 @@ body {
     align-items: center;
   }
 
+  .about__author {
+    text-align: center;
+  }
+
   .header,
   .footer {
     padding: 0 40px;
@@ -445,10 +449,6 @@ body {
 
   .topic {
     font-size: 36px;
-  }
-
-  .about__author {
-    text-align: center;
   }
 
   #input:checked ~ .main__navbar {
