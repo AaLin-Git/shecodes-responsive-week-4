@@ -278,16 +278,19 @@ body {
 }
 
 /* about page */
+.top__section {
+  display: flex;
+}
 
 .aside {
-  width: 50%;
+  width: 45%;
   height: 782px;
   background-image: url(../images/bg-vertical.png);
   background-position: center;
 }
 
 .about__main {
-  width: 50%;
+  width: 45%;
   justify-content: space-around;
   padding: 0 40px;
 }
@@ -299,6 +302,7 @@ body {
 }
 
 .about__author {
+  margin: 60px;
   font-size: 64px;
   letter-spacing: 0.1em;
   line-height: 75px;
@@ -322,6 +326,8 @@ body {
 
 .bottom__section {
   padding: 100px 144px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bottom__section__photo {
@@ -369,17 +375,36 @@ body {
 }
 
 @media (max-width: 1008px) {
-  .main__section {
+  .aside,
+  .about,
+  .about__camera,
+  .main__media,
+  .trademark,
+  .hidden {
+    display: none;
+  }
+
+  .main__section,
+  .bottom__section {
     padding: 20px;
   }
 
   .main__section__item {
     padding: 10px;
-    height: 220px;
+    height: 300px;
   }
 
-  .trademark {
-    display: none;
+  .description {
+    text-align: justify;
+  }
+
+  .about__main {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about__author {
+    text-align: center;
   }
 
   .header,
@@ -389,6 +414,11 @@ body {
 }
 
 @media (max-width: 640px) {
+  .description,
+  .navbar__list {
+    display: none;
+  }
+
   .main__section {
     padding: 10px;
     justify-content: center;
@@ -409,14 +439,6 @@ body {
     padding: 0;
   }
 
-  .trademark {
-    display: none;
-  }
-
-  .navbar__list {
-    display: none;
-  }
-
   .label {
     display: block;
     position: relative;
@@ -427,10 +449,6 @@ body {
 
   .topic {
     font-size: 36px;
-  }
-
-  .description {
-    display: none;
   }
 
   #input:checked ~ .main__navbar {
